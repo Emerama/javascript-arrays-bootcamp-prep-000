@@ -17,3 +17,15 @@ function destructivelyAddElementToEndOfArray(array, element) {
   array.push("foo")
   return array;
 }
+
+function accessElementInArray(array, index) {
+  return array[2]
+}
+
+function destructivelyRemoveElementFromBeginningOfArray(array) {
+  array.shift("")
+}
+
+function removeElementFromBeginningOfArray(array) {
+  
+}
